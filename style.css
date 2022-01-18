@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+	body {
+        background-image: url(image/priroda.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+font-family: ubuntu;
+	color: whitesmoke;
+	
+	}
+
+#outerWrapper {
+	margin: 100px auto;
+	width: 800px;
+	background-color: #db0f0f;
+	padding: 50px;
+  border-radius: 35px;
+}
+
+
+
+	 
+nav {
+	
+	color: white;
+	font-size: 16px;
+	margin: 0 ;
+	overflow: hidden;
+	background-color: #2a5ca7;
+	text-align: center;
+	
+}
+
+nav ul {
+	margin: 0;
+	
+	list-style: none;
+	
+}
+nav ul li {
+	
+	
+	text-align: center;
+}
+nav ul li a {
+	line-height: 25px;
+	display: inline-block;
+	color: white;
+	background-color: #2a5ca7;
+	text-decoration: none;
+}
+
+
+*/
+nav{
+  
+	color: white;
+	font-size: 16px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    background-color: #2a5ca7
+    text-align:center;
+}
+nav li{
+  float: left;
+    
+    line-height: 25px;
+    color: white;
+	background-color: #2a5ca7;
+	text-decoration: none;
+
+}
+nav a{
+    display:block;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+	background-color: #2a5ca7
+}
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  color:#795c14;
+
+}
+h1:hover{
+  text-shadow: 4px 3px #fffd7977;
+}
+
+h2{
+  font-size: 36px;
+  font-weight: 400;
+  background-image: url(image/priroda.jpg);
+  color: #2a5ca7
+  width: 50%;
+    padding: 5%;
+    
+ 
+}
+
+h2:hover{
+  text-shadow: 2px 2px #ddda25;
+  box-shadow: 25px 10px #2a5ca7
+}
+p{
+  color: rgb(0, 0, 0);
+ 
+}
+a{
+  text-decoration: underline;
+  color: #2a5ca7
+  font-weight: 700;
+  font-size: 24px;
+}
+
+a:hover{
+
+  color: whitesmoke;
+  background-color:#2a5ca7 ;
+  padding: 10px;
+  text-decoration: none;
+}
+
+
+header {
+	text-align: center;
+	background-color: #9c4814;
+}
+
+footer {
+	font-size: small;
+	text-align: center;
+
+}
+section {
+	float: left;
+width: 100%;
+	padding:5%;
+
+	background-color: #ddda25;
+}
+
+#contentWrapper {
+	overflow: hidden;
+}
+.text{
+  color: #2a5ca7
+  font-weight: 900;
+}
+.text:hover{
+color:#262526;
+background-color: whitesmoke;
+
+}
+.mark{
+  background-color: whitesmoke;
+color: #2a5ca7
+font-weight: 600;
+  padding: 4px;
+  width: 35%;
+}
+
+.mark2{
+  background-color: whitesmoke;
+ color: rgb(0, 81, 255);
+font-style: italic;
+
+}
+
+.bigletter{
+ 
+    font-size: 4.2rem;
+    font-weight: bold;
+    float: left;
+  
+  
+    
+    color: white;
+    background-color:#741e1e;
+    
+   
+  
+}
+
+.movingtext {
+	font-size: 5vw;
+	text-decoration: none;
+	font-weight: 100;
+	letter-spacing: -3px;
+	animation: weight 2s infinite;
+	animation-delay: calc(var(--char-index) * 150ms);
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+
+
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
+
+@keyframes weight {
+	from {
+		font-weight: 100;
+	}
+
+	50% {
+		font-weight: 900;
+	}
+
+	to {
+		font-weight: 100;
+	}
+}
